@@ -1,0 +1,24 @@
+1.
+a)  value is a variable not a pointer and NULL is a pointer to nothing used to initialise pointers
+b)  pointer has not been dereferenced
+c)  pointer is not pointing to the address of a variable
+d)  pointer should point to another pointer
+e)  
+f)  parameters are the same type, so they need variable names to differentiate them
+g)  
+
+2.
+a)  a = 10
+    b = 10
+
+b)  a = 2
+    b = 10
+
+c)  a = 2
+    b = 40
+
+d)  a = 2 
+    b = 1
+
+e)
+

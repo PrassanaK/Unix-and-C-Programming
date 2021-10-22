@@ -1,0 +1,31 @@
+1.
+a) an int array called a that has 14 elements
+b) a double array called b that has 4 elements, but it didn't need to specified in the square brackets because
+the elements are already defined
+c) a 2D array of floats with 5 rows and 10 columns
+d) an array of 10 pointers
+e) a 2d array of pointers to pointers with 3 rows and 4 columns
+f) an array of chars where each element in the array makes up a string that says "Hello"
+g) a read only string. read only storage allocated for "Hello". t points to it
+
+3.
+a) element at intersection of row 3 and column 2 = 10
+b) points to the first element. 
+c) pointer to 3rd row
+d) pointer to 2 elements down from first element of c = 3rd row
+e) dereferenced value of 2 elements down from first elements of c= 9
+f) pointer to 3rd row
+g) pointer to first element of 3rd row dereferenced which is 9
+h) 1 row down from first element dereferenced which is (5 + 1)
+i) 7th element = 7
+j) 3 elements down from first element dereferenced which is 13
+
+4.
+a) int* arr = (int*)malloc(25*sizeof(int))
+b) float* arr = (float*)malloc(25*sizeof(float))
+c)  
+
+5
+a)
+b) \0 
+

@@ -1,0 +1,36 @@
+1.
+a)
+
+    enter integer number.
+    If number is less than 0 or greater than 10, system prints out of range.
+    if number is not 5 system prints wrong
+    any other number is correct
+
+b)
+    while loop outputs i and then increments i and outputs is again while i is less than the count
+
+c)
+    readInt function is used to enter the numbers for a and b. 
+    c does a calculation with a and b.
+    printInt imports c and then outputs it to the screen 
+
+2.
+a)There are no forward declarations
+
+b)5th function is on the top
+  4th function below 5th
+  3rd function below 4th
+  2nd function below 3rd
+  1st function below 2nd
+
+c)1st function is on the top
+  2nd function below 1st
+  3rd function below 2nd
+  4th function below 3rd
+  5th function below 4th
+
+d)1st and 5th function on the bottom 
+  2nd, 3rd and 4th functions are above 1st and 5th
+
+e)2nd, 3rd and 4th functions are at the bottom
+  1st and 5th functions are above 2nd, 3rd and 4th

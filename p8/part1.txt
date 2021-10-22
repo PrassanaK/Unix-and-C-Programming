@@ -1,0 +1,16 @@
+1.
+a) sets a break point at start of function deleteBook
+b) runs the program, but when it reaches the deleteBook function, the program will pause
+c) prints the address that cat is pointing to
+d) prints values in the struct; cat
+e) program will pause when book is equal to book within the cat struct
+f) continues to execute the program after hitting breakpoint
+g) steps to the next line over function
+h) steps to the next line over the next function
+i) steps over the rest of the current function
+
+2.
+a) There may not have been any variable in getBorrower that has been declared to hold the ID
+   Blist may noth ave been allocated appropriate memory in the function that calls menuReturnBook
+
+b)  

@@ -1,0 +1,31 @@
+1.
+a) ---23  --- +46---
+b) printf("x=%6.3f, y=%6.3f", 1.23, 216.0);
+   x= 1.230, y=216.000
+
+2.
+a) scanf("%4s %7s", first, second);
+b) scanf("%d:%d:%d %2s", &hours, &minutes, &seconds, ampm)
+c) scanf("
+
+3.
+a) FILE* f;
+   f = fopen("integers.txt", "r");
+
+   int integerArray[99];
+   int i;
+
+   for (i=0; i<100; i++)
+   {
+     fscanf(f, "%d", &integerArray[i];
+   }
+
+b) fscanf reads in a string from a file but doesn't store it.
+   fgets reads in a string from a file and stores it in a char* array
+
+c) Use scanf with for loop
+
+d) Use fgets then use atoi to convert that char to an int
+
+e) Use fgets then use atof to convert char to double
+  

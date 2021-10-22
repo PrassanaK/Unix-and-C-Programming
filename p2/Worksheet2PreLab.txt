@@ -1,0 +1,34 @@
+1.
+a)  inserts content of marvellous.h into source code.
+    it is a standard header file 
+
+b)  inserts content of marvellous.h into source code.
+    it is a custom header file
+
+c)  LENGTH is defined as a constant value and is given the value 100
+
+d)  CUBE a piece of code with parameters
+    CUBE(a + b) == ((a + b)*(a + b)*(a + b))
+
+e)  CALC(x,y,z) ((x) + CUBE(y) + CUBE(CUBE(z)))
+    CALC(x,y,z) == ((x) + ((y)*(y)*(y)) + ((CUBE(z))*(CUBE(z))*(CUBE(z)))
+
+f)  printf("%d", LENGTH); only be compiled if LENGTH has been defined at the top, otherwise it will just be edited out by the preprocessor
+
+g)  printf("Hello world/n"); will not be compiled because THEFILE has been defined below the #ifndef directive
+
+
+
+3.
+a)  Creates high coupling
+    No locality. Code is easier to understand if scope of the variables are limited and passed between methods
+
+b)  static makes the function inaccessible outside the file which is counter intuitive
+
+4. 
+a)  database.h, util.h
+b)  database.h, util.c,interface.c
+c)  main.o, database.o, interface.c
+d)  none
+e)  none
+f)  util.o

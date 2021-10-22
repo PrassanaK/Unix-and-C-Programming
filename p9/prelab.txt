@@ -1,0 +1,4 @@
+1.
+a)constant pointer to a constant float
+b)constant pointer to a float pointer
+c)

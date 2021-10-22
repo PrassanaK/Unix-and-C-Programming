@@ -1,0 +1,5 @@
+a) grep -E 'Aug 20 10:21:*[0=59]+' logfile
+b)grep -E 'warning|error|fail' logfile
+c)grep -E 'warning|error|fail' logfile
+d)grep -E '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+' logfile
+e)

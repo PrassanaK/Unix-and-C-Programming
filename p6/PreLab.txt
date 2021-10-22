@@ -1,0 +1,109 @@
+1.
+a) typedef struct
+   {
+       char* day;
+       char* month;
+       int year;
+   }Date;
+
+b) typedef struct
+   {
+       int x;
+       int y;
+       int z;
+   }Coordinate;
+
+c) typdef struct
+   {
+       int number;
+       char* streetName;
+       char* suburb;
+   }PostalAddress;
+
+d) typedef struct
+   {
+       char* Unit;
+       char* day;
+       int length;
+   }PracDetails;
+
+e) typedef struct
+   {
+       PracDetails* pracs; 
+   }ArrayOfPracs; 
+
+2.
+a) Date* date = (Date*)malloc(sizeof(Date));
+   free(Date);
+
+b) Coordinate* coords = (Coordinate*)malloc(25*sizeof(coords))
+   free(Coordinate)
+
+c) Info* info = (Info*)malloc(sizeof(Info));
+   info->name= malloc(99*sizeof(char))
+   free(Info)
+
+d) Info* infoArray = malloc(25*sizeof(Info));
+   free(Info);
+
+e) InfoList* infolist = (InfoList*)malloc(sizeof(InfoList));
+   infolist->list=(Info*)malloc(25*sizeof(Info));
+
+3.
+a)
+i) var is a struct
+ii)expression accesses the field b in var
+
+b) 
+i) var is a pointer to a struct
+ii)expression accesse the field b in var after it has been dereferenced
+
+c
+i) var is and array of var structs
+ii) expression accesses the field b of the struct in element i
+
+d) 
+i) var is an array of pointers to structs
+ii)expression accesses the field b of the struct after it has been dereferenced
+
+e)
+i) var is a pointer to a struct
+ii)expression accesses element i of array b within struct var
+
+f)
+i) var is an array of pointers to struct var
+ii)expression accesses element j of array b within struct var[i]
+
+g) 
+
+h) 
+i) var is a pointer to a struct
+ii)expression dereferences struct b, var then accesses field c through struct b
+
+i.
+i) var is a struct
+ii)expression accesses element [i][j] which is a single struct b, var accesses field c through struct b
+
+4.
+typedef struct LinkedListNode
+{
+    FruitBat* bat;
+    struct LinkedListNode* next;
+}
+
+typedef struct
+{
+    LinkedListNode* head;
+    int length;
+}LinkedList
+
+5.
+a) If it's the other way around then head won't have anything to point to
+
+b) No,
+
+c) yes, but first occurence of duplicate must be removed 
+
+
+
+ 
